@@ -1,5 +1,3 @@
-const prefix = 'app'
-
 module.exports = {
   env: {
     browser: true,
@@ -24,7 +22,7 @@ module.exports = {
       "error",
       {
         type: "element",
-        prefix: prefix,
+        prefix: "app",
         style: "kebab-case",
       },
     ],
@@ -32,7 +30,7 @@ module.exports = {
       "error",
       {
         type: "attribute",
-        prefix: prefix,
+        prefix: "app",
         style: "camelCase",
       },
     ],
