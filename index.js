@@ -1,3 +1,5 @@
+const { version } = require("prettier");
+
 module.exports = {
   env: {
     browser: true,
@@ -12,7 +14,7 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: "latest",
     sourceType: "module",
     project: "./tsconfig.json",
   },
@@ -48,6 +50,14 @@ module.exports = {
     ],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": "warn",
+  },
+  settings: {
+    angular: {
+      version: "detect",
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"],
+    },
   },
   ignorePatterns: ["projects/**/*", "node_modules", "dist"],
 };
