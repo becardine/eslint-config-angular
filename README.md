@@ -5,7 +5,7 @@ This package provides a pre-configured ESLint setup for Angular projects, with s
 ## Installation
 
 ```bash
-npm install --save-dev @becardine/eslint-config-angular eslint prettier
+npm i @becardine/eslint-config-angular
 ```
 
 ## Usage
