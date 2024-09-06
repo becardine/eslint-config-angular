@@ -4,6 +4,7 @@
   "version": "2.0.10",
   "main": "index.js",
   "author": "becardine",
+  "type": "module",
   "license": "MIT",
   "description": "ESLint configuration for Angular projects",
   "repository": {
