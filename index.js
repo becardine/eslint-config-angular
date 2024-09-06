@@ -1,4 +1,3 @@
-const { version } = require("prettier");
 
 module.exports = {
   env: {
@@ -24,7 +23,7 @@ module.exports = {
       "error",
       {
         type: "element",
-        prefix: "app",
+        prefix: project.prefix,
         style: "kebab-case",
       },
     ],
@@ -32,7 +31,7 @@ module.exports = {
       "error",
       {
         type: "attribute",
-        prefix: "app",
+        prefix: project.prefix,
         style: "camelCase",
       },
     ],
