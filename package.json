@@ -7,19 +7,18 @@
   "license": "MIT",
   "description": "ESLint configuration for Angular projects",
   "repository": {
-    "url": "becardine/eslint-config-angular"
+    "url": "https://github.com/becardine/eslint-config-angular"
   },
   "dependencies": {
     "@angular-eslint/eslint-plugin": "^18.3.0",
     "@angular-eslint/eslint-plugin-template": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.4.0",
     "@typescript-eslint/parser": "^8.4.0",
-    "eslint": "^9.9.1",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3"
   },
   "peerDependencies": {
     "eslint": "^8.x",
-    "@typescript-eslint/parser": "^5.x"
+    "prettier": "^3.x"
   }
 }
