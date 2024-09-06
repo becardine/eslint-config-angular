@@ -1,15 +1,4 @@
-const fs = require("fs")
-const path = require("path")
-
-const getAngularPrefix = () => {
-  const angularConfigPath = path.resolve(__dirname, "./angular.json")
-  const angularConfig = JSON.parse(fs.readFileSync(angularConfigPath, "utf-8"))
-
-  const projectName = Object.keys(angularConfig.projects)[0]
-  return angularConfig.projects[projectName].prefix || "app"
-}
-
-const prefix = getAngularPrefix()
+const prefix = 'app'
 
 module.exports = {
   env: {
